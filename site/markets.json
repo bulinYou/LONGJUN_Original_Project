@@ -1,0 +1,10 @@
+[
+  {"iso":"USA","nameKey":"marketUSA","number":"01","lon":-100,"lat":39,"labelDx":0,"labelDy":-19},
+  {"iso":"DEU","nameKey":"marketDEU","number":"02","lon":10.5,"lat":51,"labelDx":-24,"labelDy":-25},
+  {"iso":"RUS","nameKey":"marketRUS","number":"03","lon":96,"lat":62,"labelDx":0,"labelDy":-19},
+  {"iso":"UKR","nameKey":"marketUKR","number":"04","lon":31,"lat":49,"labelDx":13,"labelDy":-29},
+  {"iso":"AUS","nameKey":"marketAUS","number":"05","lon":134,"lat":-25,"labelDx":0,"labelDy":-19},
+  {"iso":"JPN","nameKey":"marketJPN","number":"06","lon":138,"lat":37,"labelDx":24,"labelDy":-15},
+  {"iso":"KOR","nameKey":"marketKOR","number":"07","lon":128,"lat":36,"labelDx":-15,"labelDy":23},
+  {"iso":"IND","nameKey":"marketIND","number":"08","lon":79,"lat":23,"labelDx":0,"labelDy":-20}
+]

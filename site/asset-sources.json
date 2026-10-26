@@ -1,0 +1,130 @@
+{
+  "reviewed": "2026-10-23",
+  "scope": "New ingredient and category imagery. Existing LONGJUN logo is unmodified.",
+  "assets": [
+    {
+      "file": "rosa-damascena.webp",
+      "suggested_use": "Fragrance category; botanical reference only",
+      "subject": "Rosa × damascena",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Rosa_damascena.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Rosa_damascena.jpg",
+      "creator": "Виолетова",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized from 1920×1080 to 1440×810 and converted to WebP; CSS may crop the display.",
+      "required_credit": "Rosa damascena — Виолетова / Wikimedia Commons, CC BY-SA 4.0. Resized; displayed crop may vary.",
+      "caption": "Rosa × damascena · botanical reference photograph",
+      "limitation": "Identification follows the contributor and Commons taxonomic category; not an independently authenticated herbarium specimen and not a photograph of a LONGJUN growing site or supplied batch."
+    },
+    {
+      "file": "sophora-health.webp",
+      "suggested_use": "Health category; botanical source context",
+      "subject": "Styphnolobium japonicum (syn. Sophora japonica) flowers",
+      "source_url": "https://commons.wikimedia.org/wiki/File:PagodaTreeFlowers3.jpg",
+      "creator": "Fanghong",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Existing licensed source photograph resized to 1440×1080 and converted to WebP; CSS may crop the display.",
+      "required_credit": "Sophora flowers — Fanghong / Wikimedia Commons, CC BY-SA 3.0. Resized; displayed crop may vary.",
+      "caption": "Sophora flowers · botanical source reference",
+      "limitation": "Shows the plant, not finished ingredients or current LONGJUN production. Does not imply every Health ingredient is sourced from this plant."
+    },
+    {
+      "file": "derivatives-structure.svg",
+      "suggested_use": "Raw material derivatives category",
+      "subject": "Troxerutin reference 2D structure",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5486699",
+      "creator": "PubChem structure depiction; LONGJUN site layout",
+      "license": "Public chemical structure information; PubChem-generated depiction with source acknowledgement",
+      "required_credit": "Structure reference: PubChem, CID 5486699.",
+      "caption": "Troxerutin · molecular structure reference",
+      "changes": "Official 900×900 PNG embedded intact within a simple SVG layout.",
+      "limitation": "Reference molecular identity, not a batch test, purity statement, product certification, or physical product photograph."
+    },
+    {
+      "file": "rutin-structure.png",
+      "suggested_use": "rutin product identity illustration",
+      "subject": "Rutin",
+      "pubchem_cid": 5280805,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280805",
+      "download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5280805/PNG?image_size=900x900",
+      "creator": "PubChem",
+      "license": "Public chemical structure information; PubChem-generated depiction with source acknowledgement",
+      "required_credit": "Structure reference: PubChem, CID 5280805.",
+      "dimensions": [
+        900,
+        900
+      ],
+      "changes": "None; official 2D PNG.",
+      "limitation": "Reference structure only; not a batch analysis or physical product photograph."
+    },
+    {
+      "file": "quercetin-structure.png",
+      "suggested_use": "quercetin product identity illustration",
+      "subject": "Quercetin",
+      "pubchem_cid": 5280343,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280343",
+      "download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5280343/PNG?image_size=900x900",
+      "creator": "PubChem",
+      "license": "Public chemical structure information; PubChem-generated depiction with source acknowledgement",
+      "required_credit": "Structure reference: PubChem, CID 5280343.",
+      "dimensions": [
+        900,
+        900
+      ],
+      "changes": "None; official 2D PNG.",
+      "limitation": "Reference structure only; not a batch analysis or physical product photograph."
+    },
+    {
+      "file": "troxerutin-structure.png",
+      "suggested_use": "troxerutin product identity illustration",
+      "subject": "Troxerutin",
+      "pubchem_cid": 5486699,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5486699",
+      "download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5486699/PNG?image_size=900x900",
+      "creator": "PubChem",
+      "license": "Public chemical structure information; PubChem-generated depiction with source acknowledgement",
+      "required_credit": "Structure reference: PubChem, CID 5486699.",
+      "dimensions": [
+        900,
+        900
+      ],
+      "changes": "None; official 2D PNG.",
+      "limitation": "Reference structure only; not a batch analysis or physical product photograph."
+    },
+    {
+      "file": "rhamnose-structure.png",
+      "suggested_use": "rhamnose product identity illustration",
+      "subject": "L-Rhamnose",
+      "pubchem_cid": 25310,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/25310",
+      "download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/25310/PNG?image_size=900x900",
+      "creator": "PubChem",
+      "license": "Public chemical structure information; PubChem-generated depiction with source acknowledgement",
+      "required_credit": "Structure reference: PubChem, CID 25310.",
+      "dimensions": [
+        900,
+        900
+      ],
+      "changes": "None; official 2D PNG.",
+      "limitation": "Reference structure only; not a batch analysis or physical product photograph. Product specification must confirm stereochemical and hydration form; do not imply these from the catalog name alone."
+    },
+    {
+      "file": "berberine-hydrochloride-structure.png",
+      "suggested_use": "berberine-hydrochloride product identity illustration",
+      "subject": "Berberine chloride",
+      "pubchem_cid": 12456,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/12456",
+      "download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/12456/PNG?image_size=900x900",
+      "creator": "PubChem",
+      "license": "Public chemical structure information; PubChem-generated depiction with source acknowledgement",
+      "required_credit": "Structure reference: PubChem, CID 12456.",
+      "dimensions": [
+        900,
+        900
+      ],
+      "changes": "None; official 2D PNG.",
+      "limitation": "Reference structure only; not a batch analysis or physical product photograph. The diagram is the anhydrous chloride reference; commercial hydrate form must be confirmed separately."
+    }
+  ]
+}

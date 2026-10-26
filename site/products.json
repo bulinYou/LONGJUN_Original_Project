@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "rose-otto",
+    "name": "Rose Otto",
+    "nameKey": "roseTitle",
+    "category": "fragrance",
+    "image": "rose-oil.webp",
+    "descriptionKey": "roseDescription",
+    "featured": true,
+    "imageAltKey": "oilAlt"
+  },
+  {
+    "slug": "rose-hydrosol",
+    "name": "Damask Rose Hydrosol",
+    "nameKey": "hydrosolName",
+    "category": "derivatives",
+    "image": "rosa-damascena.webp",
+    "descriptionKey": "hydrosolDescription",
+    "imageAltKey": "fragranceAlt"
+  },
+  {
+    "slug": "rutin",
+    "name": "Rutin",
+    "nameKey": "rutinName",
+    "category": "health",
+    "descriptionKey": "rutinDescription",
+    "image": "rutin-structure.png",
+    "isStructure": true
+  },
+  {
+    "slug": "troxerutin",
+    "name": "Troxerutin",
+    "nameKey": "troxerutinName",
+    "category": "derivatives",
+    "descriptionKey": "troxerutinDescription",
+    "image": "troxerutin-structure.png",
+    "isStructure": true
+  },
+  {
+    "slug": "quercetin",
+    "name": "Quercetin",
+    "nameKey": "quercetinName",
+    "category": "health",
+    "descriptionKey": "quercetinDescription",
+    "image": "quercetin-structure.png",
+    "isStructure": true
+  },
+  {
+    "slug": "rhamnose",
+    "name": "Rhamnose",
+    "nameKey": "rhamnoseName",
+    "category": "derivatives",
+    "descriptionKey": "rhamnoseDescription",
+    "image": "rhamnose-structure.png",
+    "isStructure": true
+  },
+  {
+    "slug": "berberine-hydrochloride",
+    "name": "Berberine Hydrochloride",
+    "nameKey": "berberineName",
+    "category": "health",
+    "descriptionKey": "berberineDescription",
+    "image": "berberine-hydrochloride-structure.png",
+    "isStructure": true
+  }
+]

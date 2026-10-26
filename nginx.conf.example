@@ -1,0 +1,37 @@
+# LONGJUN 静态站 nginx 配置示例
+# 用法：把本文件放到 /etc/nginx/conf.d/longjun.conf（或 include 进主配置），
+# 将 longjun-site-dist.zip 解压后的所有文件放到 /var/www/longjun/ 下。
+# 记得先 nginx -t 校验语法，再 nginx -s reload。
+
+server {
+    listen 80;
+    server_name longjun.example.com;   # 换成你的域名或 _ / IP
+
+    root /var/www/longjun;
+    index index.html;
+
+    # 静态资源缓存：样式/脚本/图片缓存 7 天
+    location ~* \.(?:css|js|png|jpe?g|webp|svg|ico|woff2?)$ {
+        expires 7d;
+        add_header Cache-Control "public, max-age=604800";
+        try_files $uri =404;
+    }
+
+    # 目录式路由：/health/ -> /health/index.html，其余回退到 404
+    location / {
+        try_files $uri $uri/ $uri/index.html =404;
+    }
+
+    # 不缓存 HTML，保证页面更新即时生效
+    location ~* \.html$ {
+        add_header Cache-Control "no-cache";
+        try_files $uri =404;
+    }
+
+    gzip on;
+    gzip_types text/css application/javascript application/json image/svg+xml;
+    gzip_min_length 1024;
+
+    # 站点内置自包含 SVG logo，无需额外处理。
+    # 如后续启用 HTTPS，建议在此 server 上加 301 跳转到 443 并配置证书。
+}
